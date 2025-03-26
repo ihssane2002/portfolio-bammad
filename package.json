@@ -2,7 +2,7 @@
   "name": "portfolio",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://Ihssane.me",
+  "homepage": "https://ihssane2002.github.io/portfolio-bammad/",
   "dependencies": {
     "@react-pdf-viewer/core": "^3.12.0",
     "@react-pdf-viewer/default-layout": "^3.12.0",
@@ -59,3 +59,4 @@
     "gh-pages": "^6.2.0"
   }
 }
+

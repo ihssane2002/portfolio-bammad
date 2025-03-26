@@ -1,0 +1,38 @@
+{
+  "files": {
+    "main.css": "/static/css/main.8879b35d.css",
+    "main.js": "/static/js/main.85cba401.js",
+    "static/js/453.ace21015.chunk.js": "/static/js/453.ace21015.chunk.js",
+    "static/media/gest .png": "/static/media/gest .a2ca495cd9156f4308bf.png",
+    "static/media/cn.png": "/static/media/cn.04ba4830b1f89163d97f.png",
+    "static/media/GENEPRO.png": "/static/media/GENEPRO.baa10cc9a69967bb842d.png",
+    "static/media/foundation project mana.png": "/static/media/foundation project mana.8d4dd31fdfc1062c4bae.png",
+    "static/media/progr.png": "/static/media/progr.1c61923f1901fbe2c046.png",
+    "static/media/uml.png": "/static/media/uml.4b509f532cb09ae5c1cf.png",
+    "static/media/big data .png": "/static/media/big data .1fb52be91d1154cac7b2.png",
+    "static/media/learnfirebase .png": "/static/media/learnfirebase .ed4984d48a29b9d9d4e8.png",
+    "static/media/data-methodo.png": "/static/media/data-methodo.cbf46547fff5ea12d207.png",
+    "static/media/generAI.png": "/static/media/generAI.533657b417494b82dcd5.png",
+    "static/media/intro-ai.png": "/static/media/intro-ai.1e0c4d9a56c58ec0910d.png",
+    "static/media/project mana.png": "/static/media/project mana.3caddc3531b17d1470bb.png",
+    "static/media/home-bg.jpg": "/static/media/home-bg.2d12d9a40ec60693cc3c.jpg",
+    "static/media/P2.png": "/static/media/P2.eff17b2aabbb841a7336.png",
+    "static/media/histo.png": "/static/media/histo.4c37546e6c3139dba7e3.png",
+    "static/media/lbd.png": "/static/media/lbd.18740e57be9e9597bafd.png",
+    "static/media/resume.pdf": "/static/media/resume.7a477f91a2ffb9f06c8d.pdf",
+    "static/media/lo.png": "/static/media/lo.3120d2e1edf8b5c186f9.png",
+    "static/media/one.png": "/static/media/one.f69a94ab147627d907a5.png",
+    "static/media/Centrale.png": "/static/media/Centrale.d2f12b3544273aeeea7c.png",
+    "static/media/pca .png": "/static/media/pca .850a763c778c137bc4f2.png",
+    "static/media/predi.jpeg": "/static/media/predi.6cbb266b4f20e68c0acd.jpeg",
+    "index.html": "/index.html",
+    "static/media/pre.svg": "/static/media/pre.dfffae2b3f70a31a1525.svg",
+    "main.8879b35d.css.map": "/static/css/main.8879b35d.css.map",
+    "main.85cba401.js.map": "/static/js/main.85cba401.js.map",
+    "453.ace21015.chunk.js.map": "/static/js/453.ace21015.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.8879b35d.css",
+    "static/js/main.85cba401.js"
+  ]
+}

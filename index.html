@@ -40,8 +40,16 @@
   <meta name="twitter:image" content="">
 </head>
 <script>
-  window.ECP_ENABLED = false;
-</script>
+  document.addEventListener('DOMContentLoaded', () => {
+    const scripts = document.querySelectorAll('script');
+    scripts.forEach(script => {
+      if (script.src.includes('enable_copy.js')) {
+        script.remove();
+        console.log('enable_copy.js removed');
+      }
+    });
+  });
+</script>>
 <body>
   <noscript>Feel free to checkout my ePortfolio.</noscript>
   <div id="root"></div>

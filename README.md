@@ -3,7 +3,7 @@
 
 ## [bammad-portfolio.netlify.app](https://bammad-portfolio.netlify.app/)
 
-![Portfolio Mockup](./assets/portf.png)
+![Portfolio Mockup](./portf.png)
 
 ## TL;DR
 

@@ -18,12 +18,12 @@ My personal portfolio [`bammad-portfolio.netlify.app`](https://bammad-portfolio.
 
 **Tech Stack:**
 
-- ⚛️ React.js  
-- 🟢 Node.js  
-- 🚀 Express.js  
-- 🎨 CSS3  
-- 🧠 VSCode  
-- 🌍 Vercel (for deployment)
+-  React.js  
+-  Node.js  
+-  Express.js  
+-  CSS3  
+-  VSCode  
+-  Vercel (for deployment)
 
 ---
 
@@ -39,8 +39,16 @@ My personal portfolio [`bammad-portfolio.netlify.app`](https://bammad-portfolio.
 
 ##  Getting Started
 
-To run this project locally, clone the repository and follow these steps:
+Clone down this repository. You will need node.js and git installed globally on your machine.
 
-```bash
-git clone https://github.com/your-username/portfolio
-cd portfolio
+##  Installation and Setup Instructions
+Installation: npm install
+
+In the project directory, you can run: npm start
+
+Runs the app in the development mode.
+Open http://localhost:3000 to view it in the browser. The page will reload if you make edits.
+
+##  Usage Instructions
+Open the project folder and Navigate to /src/components/.
+You will find all the components used and you can edit your information accordingly.

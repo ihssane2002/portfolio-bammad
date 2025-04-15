@@ -1,7 +1,4 @@
-from pathlib import Path
 
-# Contenu du fichier README.md
-readme_content = """
 # Ihssane Bammad's Portfolio
 
 ## [bammad-portfolio.netlify.app](https://bammad-portfolio.netlify.app/)

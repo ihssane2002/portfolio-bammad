@@ -15,6 +15,8 @@ import cn from "../../Assets/Certification/cn.png";
 import projectMana from "../../Assets/Certification/project mana.png";
 import uml from "../../Assets/Certification/uml.png";
 import progr from "../../Assets/Certification/progr.png";
+import depl from "../../Assets/Certification/depl.png";
+import bcg from "../../Assets/Certification/bcg.png";
 
 function Certification() {
   return (
@@ -149,7 +151,26 @@ function Certification() {
               courseraLink="https://coursera.org/verify/X5Z28QAEAS0V"
             />
           </Col>
-
+          {/* Ihssane bammad Data Science Job Simulation */}
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={bcg}
+              isBlog={false}
+              title="Ihssane bammad Data Science Job Simulation"
+              description="Completed a BCG job simulation where I built and evaluated a predictive model to identify customer churn, applied data balancing techniques, and translated insights into strategic business recommendations."
+              courseraLink=" d4kSp25oAaur4EQue"
+            />
+          </Col>
+          {/* Neu ral Netw orks and Deep Learning*/}
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={depl}
+              isBlog={false}
+              title="Ihssane Neural Networks and Deep Learning Data Science Job Simulation"
+              description="Builded a deep learning models from scratch using forward and backward propagation, optimized parameters through gradient descent, and applied them to binary classification tasks."
+              courseraLink=" https://www.coursera.org/verify/LTG8RRBPKKCE"
+            />
+          </Col>
         </Row>
       </Container>
     </Container>

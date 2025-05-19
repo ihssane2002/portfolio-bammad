@@ -12,7 +12,9 @@ import predi from "../../Assets/Projects/predi.jpeg";
 import pca from "../../Assets/Projects/pca .png";
 import histo from "../../Assets/Projects/histo.png";
 import gest from "../../Assets/Projects/gest .png";
-
+import customer from "../../Assets/Projects/Customer-Churn.png";
+import comp from "../../Assets/Projects/compu.png";
+import emot from "../../Assets/Projects/emot.png";
 
 function Projects() {
   return (
@@ -38,6 +40,24 @@ function Projects() {
               ghLink="https://github.com/ihssane2002/Projet_onee"
               />
           </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={comp}
+              isBlog={false}
+              title="Computer vision project"
+              description="Developed a YOLOv8-based computer vision model to detect human presence in hazardous zones and evaluate workspace organization using the 5S methodology. Trained a custom object detection model on industrial data (11 annotated classes) and achieved high performance (Precision: 92%, Recall: 88%, mAP@0.5: 93%). Designed an automated pipeline to flag safety non-compliances and compute 5S scores from images. Implemented the full solution in Python using Google Colab." 
+              ghLink="https://github.com/ihssane2002/computer-vision-project"
+            />
+          </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={emot}
+              isBlog={false}
+              title="Sentiment classification project"
+              description="I developed a sentiment classification application using a fine-tuned RoBERTa-base model. I trained the model on a dataset of Amazon product reviews to classify text into positive, negative, or neutral sentiments. The training process was conducted in Google Colab using Hugging Face’s Transformers library, and the model achieved a precision of 96.02%. After training, I deployed the model through an interactive interface built with Streamlit and hosted it on Hugging Face Spaces. Users can input any sentence and instantly receive the predicted sentiment. The full training notebook is available on my GitHub, and the app is live for real-time testing." 
+              ghLink="https://github.com/ihssane2002/sentiment-classification-project"
+            />
+          </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
@@ -60,7 +80,25 @@ function Projects() {
               ghLink="https://github.com/ihssane2002/Projet-innovation-"
               />
           </Col>
-                
+                <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={customer}
+              isBlog={false}
+              title="Customer Churn Prediction"
+              description="In this project, I focused on analyzing customer behavior in the telecom sector to anticipate churn using supervised machine learning models. I worked with a dataset that included both demographic and service-related data, aiming to identify customers at high risk of leaving and to suggest data-driven strategies for improving retention.
+       I trained and compared several models, including Logistic Regression, Random Forest, SVM, and Decision Tree. Logistic Regression delivered the best results in terms of overall performance, especially for identifying customers who were likely to stay. I also used feature importance analysis to understand the key factors influencing churn, such as the use of fiber optic internet, high monthly charges, and electronic check payments." 
+              ghLink="https://github.com/ihssane2002/Customer-Churn-Analysis-and-Prediction-"
+              />
+          </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={histo}
+              isBlog={false}
+              title="Nomac supervisor"
+              description="In this project, I developed a dashboard for Nomac to supervise the meteorological conditions of the Noor 1 station, ensuring the protection of the cylindroparabolic sensors. The platform enables real-time monitoring of meteorological data, provides interactive visualizations for data analysis, and generates alerts in case of critical conditions, ensuring timely interventions." 
+              ghLink="https://github.com/ihssane2002/nomac-supervisor"
+              />
+          </Col>
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={scien}
@@ -110,15 +148,7 @@ function Projects() {
               ghLink="https://github.com/ihssane2002/Projet-AI_ACP"
               />
           </Col>
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={histo}
-              isBlog={false}
-              title="Nomac supervisor"
-              description="In this project, I developed a dashboard for Nomac to supervise the meteorological conditions of the Noor 1 station, ensuring the protection of the cylindroparabolic sensors. The platform enables real-time monitoring of meteorological data, provides interactive visualizations for data analysis, and generates alerts in case of critical conditions, ensuring timely interventions." 
-              ghLink="https://github.com/ihssane2002/nomac-supervisor"
-              />
-          </Col>
+          
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={gest}
@@ -128,6 +158,8 @@ function Projects() {
               ghLink="https://github.com/ihssane2002/Eco-Waste-Application"
               />
           </Col>
+          
+          
           
         </Row>
       </Container>

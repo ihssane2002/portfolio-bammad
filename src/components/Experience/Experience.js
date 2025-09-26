@@ -8,7 +8,32 @@ import { IoMdBriefcase } from "react-icons/io";
 function Experience() {
   return (
     <VerticalTimeline>
-
+      <VerticalTimelineElement
+        className="vertical-timeline-element--work"
+        contentStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
+        contentArrowStyle={{ borderRight: '7px solid  rgb(33, 150, 243)' }}
+        date="March 2025 - August 2025"
+        iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
+        icon={<IoMdBriefcase />}
+      >
+        <h3 className="vertical-timeline-element-title">Internship at ANP</h3>
+        <p>
+        Designed and implemented a complete Retrieval-Augmented Generation (RAG) pipeline to develop an intelligent and personalized chatbot for the Digital Transformation Department. The system automatically extracts and structures information from large and complex technical reports, enabling efficient retrieval and comparison across multiple documents. By integrating semantic search, embeddings, reranking, and advanced language models, the chatbot delivers accurate and contextual answers while generating structured summaries. Deployed with a secure web interface featuring authentication, traceability of sources, history management, and dynamic updates, this solution enhances decision-making, accelerates analysis workflows, and supports the digital innovation strategy of the ANP.
+        </p>
+      </VerticalTimelineElement>
+    
+      <VerticalTimelineElement
+        className="vertical-timeline-element--work"
+        contentStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
+        contentArrowStyle={{ borderRight: '7px solid  rgb(33, 150, 243)' }}
+        date="February 2025 - April 2025"
+        iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
+        icon={<IoMdBriefcase />}
+      >
+        <h3 className="vertical-timeline-element-title">Collaboration Project with Coca cola and Tecpap</h3>
+        <p>
+         Developed a computer vision solution in collaboration with Tecpap  and  Coca-Cola  Company to enhance industrial safety and workplace organization under the 5S methodology. The model, based on YOLOv8, detects human presence in hazardous zones and automatically computes a 5S compliance score from workplace images by identifying disorder, obstacles, or missing protective equipment. Trained on an annotated dataset covering 11 classes, the system achieved strong performance (Precision: 0.92). This project demonstrates the application of deep learning in real-world industrial environments, supporting proactive safety monitoring and continuous improvement initiatives.        </p>
+      </VerticalTimelineElement>
       <VerticalTimelineElement
         className="vertical-timeline-element--work"
         contentStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
@@ -17,7 +42,7 @@ function Experience() {
         iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
         icon={<IoMdBriefcase />}
       >
-        <h3 className="vertical-timeline-element-title">Internship at IDSUD Energie</h3>
+        <h3 className="vertical-timeline-element-title">Project Collaboration with IDSUD Energie</h3>
         <p>
         Designed and developed a predictive maintenance model for IDSUD Energies' Nheolight hybrid system, which integrates solar panels, wind turbines, batteries, and LEDs. Leveraged advanced machine learning techniques, using Isolation Forest to detect anomalies and XGBoost to predict potential failures. This model enables early identification of system malfunctions, enhancing the reliability of the energy infrastructure and optimizing maintenance operations, ultimately reducing costs and ensuring continuous performance.
         </p>

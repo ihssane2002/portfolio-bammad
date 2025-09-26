@@ -8,12 +8,32 @@ import { IoMdSchool } from "react-icons/io";
 function Education() {
   return (
     <VerticalTimeline>
+      {/* Centrale Nantes - Specializing in Artificial Intelligence */}
+     <VerticalTimelineElement
+  className="vertical-timeline-element--work"
+  contentStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
+  contentArrowStyle={{ borderRight: '7px solid rgb(33, 150, 243)' }}
+  date="Ongoing"
+  iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
+  icon={<IoMdSchool />}
+>
+  <h3 className="vertical-timeline-element-title">
+    Centrale Nantes | Specialization in Artificial Intelligence
+  </h3>
+  <h4 className="vertical-timeline-element-subtitle">Nantes, France</h4>
+  <p>
+    Final-year engineering program specializing in Artificial Intelligence, 
+    focusing on advanced concepts in data science, machine learning, and intelligent systems.
+    <br /><strong>Included courses</strong>: Advanced Python Programming, Advanced Algorithms, Probabilistic Modeling and Verification.
+  </p>
+</VerticalTimelineElement>
+
       {/* Centrale Casablanca - General Engineering (Focus on Data Science & AI) */}
       <VerticalTimelineElement
         className="vertical-timeline-element--work"
         contentStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
         contentArrowStyle={{ borderRight: '7px solid rgb(33, 150, 243)' }}
-        date="2023 - present"
+        date="2023 - 2025"
         iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
         icon={<IoMdSchool />}
       >

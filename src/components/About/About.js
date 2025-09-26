@@ -5,6 +5,7 @@ import Techstack from "./Techstack";
 import Toolstack from "./Toolstack";
 import Aboutcard from "./AboutCard";
 import laptopImg from "../../Assets/Centrale.png";
+import logo from "../../Assets/lo nan.png";
 
 
 function About() {
@@ -29,9 +30,20 @@ function About() {
           <Col
             md={5}
             style={{ paddingTop: "120px", paddingBottom: "50px" }}
-            className="about-img"
+            className="about-img d-flex flex-column align-items-center"
           >
-            <img src={laptopImg} alt="about" className="img-fluid" />
+            <img
+              src={logo}
+              alt="Centrale Nantes"
+              className="img-fluid"
+              style={{ maxHeight: "120px", objectFit: "contain" }}
+            />
+            <img
+              src={laptopImg}
+              alt="Centrale Casablanca"
+              className="img-fluid mb-3"
+              style={{ maxHeight: "120px", objectFit: "contain" }}
+            />
           </Col>
         </Row>
         <h1 className="project-heading">
